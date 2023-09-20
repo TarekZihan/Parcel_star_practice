@@ -1,44 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>project</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="project.css">
 </head>
+
 <body>
-    
-    <div class="parent">
+
+    <!-- sidebar -->
+
+    <div class="container">
 
         <div class="logo">
-            <img src="https://png.pngtree.com/templates/sm/20180611/sm_5b1edb6d03c39.jpg" alt="">
+            <img src="/img/logo/logo.png" alt="">
         </div>
 
-        <div class="item">
+        <div class="container_item">
+            <ul>
+                <li><a href="#"><img src="./img/add-parcel.png" alt="">Add Parcel</a></li>
+                <li><a href="#"><img src="/img/dashboard-icon.png" alt="">Dashboard </a></li>
+                <li><a href="#"><img src="./img/shops.png" alt="">Shops</a></li>
+                <li><a href="#"><img src="./img/total-parcel-list.png" alt="">Total Parcel List</a></li>
+                <li><a href="#"><img src="./img/percel-statistics.png" alt="">Parcel Statistics</a></li>
+                <li><a href="#"><img src="./img/track-percel.png" alt="">Track parcel</a></li>
+                <li><a href="#"><img src="./img/track-percel.png" alt="">Coverage Area</a></li>
+                <li><a href="#"><img src="./img/payment-list.png" alt="">Payment List</a></li>
+                <li><a href="#"><img src="./img/merchant-statement.png" alt="">Merchant Statement</a></li>
+                <li><a href="#"><img src="./img/pickup-request.png" alt="">Pickup Request List</a></li>
+                <li><a href="#"><img src="./img/return-request.png" alt="">Return Request List</a></li>
+                <li><a href="#"><img src="./img/delivery-complete.png" alt="">Delivery Complete Parcel List</a></li>
+                <li><a href="#"><img src="./img/pricing-calculator.png" alt="">Pricing Cauculator</a></li>
+                <li><a href="#"><img src="./img/support.png" alt="">Support</a></li>
+                <li><a href="#"><img src="./img/log-out.png" alt="">Logout</a></li>
+            </ul>
+        </div>
+    </div>
 
-           <a href="#"><i class='bx bxs-home'></i>Home</a>
-           <a href="#"><i class='bx bxs-news' ></i>News</a>
-           <a href="#"><i class='bx bxs-contact' ></i>Contact</a>
-           <a href="#"><i class='bx bxs-info-square' ></i>About</a>
-           <a href="#"><i class='bx bxl-meta' ></i>Social Site</a>
-           
+    <div class="background">
+        <nav>
+            <p style="font-weight: bold; font-size: 18px; color: black;">Dashboard</p>
+            <div class="bacground_small">
+                <a href=""><button>Add Parcel</button></a>
+                <img src="/img/nav logo/avatar.png" alt="logo">
+            </div>
+        </nav>
+
+        <!-- chart -->
+
+        <div class="sub_dash">
+            <p>Dashboard</p>
+            <div class="portfolio_card_container">
+                <div class="portfolio_card">
+                    <div class="portfolio_card_logo">
+                        <img src="/img/nav logo/avatar.png" alt="">
+                    </div>
+                    <em>ID123456</em>
+                    <h2>Hasib Enter Price</h2>
+                    <p>0123456789</p>
+                    <p>Mirpur hub</p>
+
+                    <div class="card_span">
+                        <span>Balance</span>
+                        <span>:</span>
+                        <span>1403 ৳</span>
+                    </div>
+                </div>
+                <div class="portfolio_chart">
+                    <div class="portfolio_chart_nav">
+                        <div class="portfolio_chart_nav_logo">
+                            <img src="/img/nav logo/logo-2.png" alt="">
+                        </div>
+                        <div class="portfolio_chart_side-nav">
+
+                            <p>Date:20 Sep 2023</p>
+
+                            <select name="" id="Button">
+                                <option value="">Today Outcome</option>
+                                <option value="">Today Outcome</option>
+                                <option value="">Today Outcome</option>
+                                <option value="">Today Outcome</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="chart_logo">
+                        <img src="./img/nav logo/dashboard_chart.png" alt="">
+                        <div class="chart_text">
+                            <p><span style="background: #33cc66 ;"></span><span></span>Total Delivery percel: <span
+                                    style="color: #33cc66;">5000</span></p>
+                            <p><span style="background: #e5b628 ;"></span><span></span>Total Delivery percel: <span
+                                    style="color: #e5b628;">5000</span></p>
+                            <p><span style="background: #0d99ff ;"></span><span></span>Total Delivery percel: <span
+                                    style="color: #0d99ff;">5000</span></p>
+                            <p><span style="background: #ff6666 ;"></span><span></span>Total Delivery percel: <span
+                                    style="color: #ff6666;">5000</span></p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- payment -->
+        <div class="parcel_menu">
+
+            <div class="percel_item">
+
+                <div class="box1">
+                    <p>Pickup Payment</p>
+                </div>
+
+                <div class="box2">
+                    <p>Request Request</p>
+                </div>
+
+                <div class="box3">
+                    <p>Return Request</p>
+                </div>
+
+                <div class="box4">
+                    <p> Track Parcel</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Activity -->
+
+        <div class="text_wrap">
+            <h4>Daily Activity</h4>
+            <div class="wrap_item">
+                <div class="box">
+                    <div class="box_content">
+                        <img src="/img/nav logo/activity-icon-1.png" alt=""><br>
+                        <span>Total Parcel</span>
+                        <span>10</span>
+                    </div>
+                </div>
+                <div  class="box">
+                    <div class="box_content">
+                        <img src="/img/nav logo/activity-icon-1.png" alt=""><br>
+                        <span>Total Parcel</span>
+                        <span>10</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box_content">
+                        <img src="/img/nav logo/activity-icon-1.png" alt=""><br>
+                        <span>Total Parcel</span>
+                        <span>10</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box_content">
+                        <img src="/img/nav logo/activity-icon-1.png" alt=""><br>
+                        <span>Total Parcel</span>
+                        <span>10</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box_content">
+                        <img src="/img/nav logo/activity-icon-1.png" alt=""><br>
+                        <span>Total Parcel</span>
+                        <span>10</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box_content">
+                        <img src="/img/nav logo/activity-icon-1.png" alt=""><br>
+                        <span>Total Parcel</span>
+                        <span>10</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box_content">
+                        <img src="/img/nav logo/activity-icon-1.png" alt=""><br>
+                        <span>Total Parcel</span>
+                        <span>10</span>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="box_content">
+                        <img src="/img/nav logo/activity-icon-1.png" alt=""><br>
+                        <span>Total Parcel</span>
+                        <span>10</span>
+                    </div>
+                </div>
+      
+
+            </div>
+            <div class="last_box">
+                <div class="box_content">
+                    <img src="/img/nav logo/activity-icon-1.png" alt=""><br>
+                    <span>Total Parcel</span>                  
+                   <div class="taka">               
+                    <span>5000000000000 ৳</span>
+                    </div>
+                                   
+                </div>
+                
+            </div>
 
         </div>
-    </div> 
+
+    </div>
+
+
+
+
+
 
 </body>
+
 </html>
-
-
-
-
-
-   
-    
-     
-
-
-
-    
-   
-
